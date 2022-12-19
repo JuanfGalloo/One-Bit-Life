@@ -8,13 +8,13 @@ const Stack = createNativeStackNavigator();
 export default function AllPages() {
   return (
     <NavigationContainer>
-      <Stack.Navigator
+      <Stack.Navigation
         screenOption={{
           headerShown: false,
         }}
       >
         <Stack.Screen name="Start" component={Start} />
-      </Stack.Navigator>
+      </Stack.Navigation>
     </NavigationContainer>
   );
 }

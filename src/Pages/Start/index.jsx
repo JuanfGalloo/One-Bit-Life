@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, Image, ScrollView, StyleSheet } from "react-native";
+import LifeStatus from "../../Components/Common/LifeStatus";
 
 export default function Start() {
   return (
@@ -10,6 +11,8 @@ export default function Start() {
             source={require("../../Assets/icons/logo3.png")}
             style={styles.logo}
           />
+
+          <LifeStatus />
 
           <Text style={styles.description}>
             Vamos transformar Sua Vida {"\n"} em jogo, buscando sempre {"\n"} o

@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: "#151515",
     borderRadius: 10,
-    marginTop: 60,
+    marginTop: 70,
     marginBottom: 10,
   },
   statusBarContainer: {

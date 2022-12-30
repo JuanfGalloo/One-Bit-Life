@@ -30,7 +30,7 @@ export default function StatusBar() {
           style={styles.icon}
         />
 
-        <ProgressBar progress={1} color={"#FF0043"} style={styles.progress} />
+        <ProgressBar progress={0} color={"#FF0043"} style={styles.progress} />
       </View>
       <View style={styles.statusBarContainer}>
         <Image
@@ -38,7 +38,7 @@ export default function StatusBar() {
           style={styles.icon}
         />
 
-        <ProgressBar progress={1} color={"#FE7F23"} style={styles.progress} />
+        <ProgressBar progress={0} color={"#FE7F23"} style={styles.progress} />
       </View>
     </View>
   );
